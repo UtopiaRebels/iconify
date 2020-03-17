@@ -2,10 +2,12 @@
 
 import sys
 from crop.crop import crop
+from face.face import face
 
 
 def main(image_name):
-    crop(image_name)
+    # crop(image_name)
+    face(image_name)
 
 
 if __name__ == "__main__":
